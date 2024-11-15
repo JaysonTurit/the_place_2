@@ -1,325 +1,504 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Index - The Place</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Index - The Place</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/fontawesome-free/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet" />
+  </head>
 
-  <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
+  <body class="index-page">
+    <header id="header" class="header sticky-top">
+      <div class="branding d-flex align-items-center">
+        <div
+          class="container position-relative d-flex align-items-center justify-content-end"
+        >
+          <a href="index.html" class="logo d-flex align-items-center me-auto">
+            <img src="assets/img/gallery/logo-1.png" alt="" />
+          </a>
 
-
-<body class="index-page">
-
-  <header id="header" class="header sticky-top">
-
-    <div class="branding d-flex align-items-center">
-
-      <div class="container position-relative d-flex align-items-center justify-content-end">
-        <a href="index.html" class="logo d-flex align-items-center me-auto">
-          <img src="assets/img/gallery/logo-1.png" alt="">
-        </a>
-
-        <nav id="navmenu" class="navmenu">
-          <ul>
-            <li><a href="#hero" class="active">Home</a></li>
-            <li><a href="#about">Sobre Nosotros</a></li>
-            <li><a href="#services">Servicios</a></li>
-            <li><a href="#doctors">Nuestro equipo</a></li>
-            <li><a href="#gallery">Instalaciones</a></li>
-            <!-- <li class="dropdown"><a href="#"><span>Español 🇨🇴</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <nav id="navmenu" class="navmenu">
+            <ul>
+              <li><a href="#hero" class="active">Home</a></li>
+              <li><a href="#about">Sobre Nosotros</a></li>
+              <li><a href="#services">Servicios</a></li>
+              <li><a href="#doctors">Nuestro equipo</a></li>
+              <li><a href="#gallery">Instalaciones</a></li>
+              <!-- <li class="dropdown"><a href="#"><span>Español 🇨🇴</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
               <ul>
                 <li><a href="#">English 🇺🇸</a></li>
               </ul>
             </li> -->
-      
-          </ul>
-          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-        </nav>
+            </ul>
+            <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+          </nav>
 
-        <a class="cta-btn" href="https://theplace.turit.co/form">Registrarme</a>
-
+          <a class="cta-btn" href="https://theplace.turit.co/form"
+            >Registrarme</a
+          >
+        </div>
       </div>
+    </header>
 
-    </div>
-
-  </header>
-
-  <main class="main">
-
-    <!-- Hero Section -->
-    <section id="hero" class="hero section">
-
-      <div id="hero-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
-
-        <div class="carousel-item active">
-          <img src="assets/img/gallery/hero-3.png" alt="">
-          <div class="container">
-            <h2>Excelencia en el Tratamiento de Hernias. </h2>
-            <p>Centro especializado que brinda espacios y herramientas de vanguardia para el tratamiento de hernias, pensado exclusivamente para profesionales de la salud que deseen realizar estos procedimientos en un entorno seguro y eficiente.</p>
-            <a href="https://theplace.turit.co/solicitud-de-servicios" class="btn-get-started">Solicitar servicio</a>
-          </div> 
-        </div><!-- End Carousel Item -->
-
-      </div>
-
-    </section><!-- /Hero Section -->
-
-        <!-- About Section -->
-        <section id="about" class="about section">
-
-          <!-- Section Title -->
-    
-          <div class="container">
-    
-            <div class="row gy-4">
-              <div class="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="100">
-                <img src="assets/img/gallery/car-2.jpg" class="img-fluid" alt="">
-                <a href="https://www.youtube.com/watch?v=9x5i5iURShE&t=1s" class="glightbox pulsating-play-btn"></a>
-              </div>
-              <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="200">
-                <h3>El sitio para realizar tratamiento quirúrgico de hernias de la pared abdominal en condiciones de excelencia.</h3>
-                <p>
-                  The Place es un <b>centro de excelencia dedicado exclusivamente al tratamiento de hernias</b> , diseñado para proporcionar a los profesionales de la salud y a sus pacientes un entorno de alta calidad y totalmente equipado. Nuestro objetivo es ser un recurso integral para cirujanos generales que buscan realizar procedimientos quirúrgicos de hernias en un espacio que prioriza la seguridad, la innovación y el confort.
-                </p>
-                <p>
-                  Contamos con quirófanos modernos, equipados con tecnología avanzada y las herramientas necesarias para llevar a cabo una amplia gama de procedimientos en el tratamiento de hernias. Además, ofrecemos servicios adicionales como personal médico de apoyo, salas de recuperación para los pacientes, y un sistema de coordinación que facilita todos los aspectos de la atención pre y postoperatoria.
-                </p>
-                <p>
-                  En un momento crítico para el sistema de salud, cuando el sistema de seguridad social no cumple con las expectativas de la comunidad, The Place se presenta como un modelo accesible, brindando a los pacientes una alternativa confiable y de alta calidad para sus necesidades quirúrgicas.
-                </p>
-              </div>
+    <main class="main">
+      <!-- Hero Section -->
+      <section id="hero" class="hero section">
+        <div
+          id="hero-carousel"
+          class="carousel slide carousel-fade"
+          data-bs-ride="carousel"
+          data-bs-interval="5000"
+        >
+          <div class="carousel-item active">
+            <img src="assets/img/gallery/hero-3.png" alt="" />
+            <div class="container">
+              <h2>Excelencia en el Tratamiento de Hernias.</h2>
+              <p>
+                Centro especializado que brinda espacios y herramientas de
+                vanguardia para el tratamiento de hernias, pensado
+                exclusivamente para profesionales de la salud que deseen
+                realizar estos procedimientos en un entorno seguro y eficiente.
+              </p>
+              <a
+                href="https://theplace.turit.co/solicitud-de-servicios"
+                class="btn-get-started"
+                >Solicitar servicio</a
+              >
             </div>
-    
           </div>
-    
-        </section><!-- /About Section -->
-          <!-- Stats Section -->
-    <section id="stats" class="stats section">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item d-flex align-items-center w-100 h-100">
-              <i class="fas fa-award flex-shrink-0"></i>
-              <div>
-                <span data-purecounter-start="0" data-purecounter-end="29" data-purecounter-duration="1" class="purecounter"></span>
-                <p>Años de experiencia</p>
-              </div>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item d-flex align-items-center w-100 h-100">
-              <i class="far fa-hospital flex-shrink-0"></i>
-              <div>
-                <span data-purecounter-start="0" data-purecounter-end="10000" data-purecounter-duration="1" class="purecounter"></span>
-                <p>Procedimientos realizados</p>
-              </div>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item d-flex align-items-center w-100 h-100">
-              <i class="fas fa-user-md flex-shrink-0"></i>
-              <div>
-                <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1" class="purecounter"></span>
-                <p>Coaches expertos</p>
-              </div>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item d-flex align-items-center w-100 h-100">
-              <i class="fas fa-user flex-shrink-0"></i>
-              <div>
-                <span data-purecounter-start="0" data-purecounter-end="3" data-purecounter-duration="1" class="purecounter"></span>
-                <p>Salas de cirugia</p>
-              </div>
-            </div>
-          </div><!-- End Stats Item -->
-
+          <!-- End Carousel Item -->
         </div>
+      </section>
+      <!-- /Hero Section -->
 
-      </div>
+      <!-- About Section -->
+      <section id="about" class="about section">
+        <!-- Section Title -->
 
-    </section><!-- /Stats Section -->
-
-
-    <!-- Services Section -->
-    <section id="services" class="services section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Nuestros servicios</h2>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item  position-relative">
-              <div class="icon">
-                <i class="fas fa-hospital"></i>
-              </div>
-              <a href="#" class="stretched-link">
-                <h3>Quirófanos para cirugías de hernias de la pared abdominal.</h3>
-              </a>
-              <p>Disponemos de quirófanos y espacios adecuados para que los pacientes ingresen, sean intervenidos, se recuperen y regresen a casa el mismo día.</p>
+        <div class="container">
+          <div class="row gy-4">
+            <div
+              class="col-lg-6 position-relative align-self-start"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <img
+                src="assets/img/gallery/car-2.jpg"
+                class="img-fluid"
+                alt=""
+              />
+              <a
+                href="https://www.youtube.com/watch?v=9x5i5iURShE&t=1s"
+                class="glightbox pulsating-play-btn"
+              ></a>
             </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="fas fa-heartbeat"></i>
-              </div>
-              <a href="#" class="stretched-link">
-                <h3>Salas de Recuperación</h3>
-              </a>
-              <p>Después de cada procedimiento, los pacientes pueden recuperarse en nuestras salas de recuperación, diseñadas para proporcionar comodidad y monitoreo constante.</p>
-              <a href="#" class="stretched-link"></a>
+            <div
+              class="col-lg-6 content"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <h3>
+                El sitio para realizar tratamiento quirúrgico de hernias de la
+                pared abdominal en condiciones de excelencia.
+              </h3>
+              <p>
+                The Place es un
+                <b
+                  >centro de excelencia dedicado exclusivamente al tratamiento
+                  de hernias</b
+                >
+                , diseñado para proporcionar a los profesionales de la salud y a
+                sus pacientes un entorno de alta calidad y totalmente equipado.
+                Nuestro objetivo es ser un recurso integral para cirujanos
+                generales que buscan realizar procedimientos quirúrgicos de
+                hernias en un espacio que prioriza la seguridad, la innovación y
+                el confort.
+              </p>
+              <p>
+                Contamos con quirófanos modernos, equipados con tecnología
+                avanzada y las herramientas necesarias para llevar a cabo una
+                amplia gama de procedimientos en el tratamiento de hernias.
+                Además, ofrecemos servicios adicionales como personal médico de
+                apoyo, salas de recuperación para los pacientes, y un sistema de
+                coordinación que facilita todos los aspectos de la atención pre
+                y postoperatoria.
+              </p>
+              <p>
+                En un momento crítico para el sistema de salud, cuando el
+                sistema de seguridad social no cumple con las expectativas de la
+                comunidad, The Place se presenta como un modelo accesible,
+                brindando a los pacientes una alternativa confiable y de alta
+                calidad para sus necesidades quirúrgicas.
+              </p>
             </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="fas fa-hospital-user"></i>
-              </div>
-              <a href="#" class="stretched-link">
-                <h3>Disponibilidad de insumos rutinarios y especializados.</h3>
-              </a>
-              <p>Contamos con insumos médicos tanto rutinarios como especializados, disponibles según los requerimientos del procedimiento.</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="fas fa-user-doctor"></i>
-              </div>
-              <a href="#" class="stretched-link">
-                <h3>Soporte  especializado en hernias de pared.</h3>
-              </a>
-              <p>Ofrecemos un equipo de soporte especializado en el tratamiento de hernias de pared, con juntas médicas para la presentación y discusión de casos clínicos, además de acompañamiento por profesores expertos durante las cirugías.</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="fa-solid fa-graduation-cap"></i>
-              </div>
-              <a href="#" class="stretched-link">
-                <h3>Capacitación y Asesoría Médica</h3>
-              </a>
-              <p>Además de los servicios de alquiler y equipamiento, The Place organiza regularmente capacitaciones y asesorías sobre las últimas técnicas de tratamiento de hernias.</p>
-              <a href="#" class="stretched-link"></a>
-            </div>
-          </div><!-- End Service Item -->
-
-
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="fas fa-user"></i>
-              </div>
-              <a href="#" class="stretched-link">
-                <h3>Gestión y Coordinación de Pacientes</h3>
-              </a>
-              <p>Ofrecemos servicios de gestión y coordinación de pacientes, incluyendo el proceso de admisión, trámites administrativos, y atención pre y post-operatoria. </p>
-              <a href="#" class="stretched-link"></a>
-            </div>
-          </div><!-- End Service Item -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Services Section -->
-
-
-    <!-- Features Section -->
-    <section id="features" class="features section">
-
-      <div class="container">
-
-        <div class="row justify-content-around gy-4">
-          <div class="features-image col-lg-6" data-aos="fade-up" data-aos-delay="100"><img src="assets/img/doctors/doc-6.png" alt=""></div>
-
-          <div class="col-lg-5 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
-            <h3>Calidad, seguridad y enfoque único</h3>
-            <p>Nuestro enfoque exclusivo nos permite optimizar cada detalle, asegurando que los profesionales de la salud puedan concentrarse en brindar atención de excelencia.</p>
-
-            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="300">
-              <i class="fa-solid fa-award flex-shrink-0"></i>
-              <div>
-                <h4><a href="" class="stretched-link">Atención Integral en Tratamientos de Hernias.</a></h4>
-                <p>Nuestras instalaciones y servicios están diseñados para ofrecer el máximo apoyo y calidad en cada tratamiento, adaptándonos a las necesidades específicas de cada paciente.</p>
-              </div>
-            </div><!-- End Icon Box -->
-
-            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
-              <i class="fa-solid fa-suitcase-medical flex-shrink-0"></i>
-              <div>
-                <h4><a href="" class="stretched-link">Equipamiento de Última Generación </a></h4>
-                <p>Contamos con tecnología avanzada y herramientas quirúrgicas especializadas que optimizan la precisión y seguridad en cada procedimiento, ofreciendo un entorno adaptado a las exigencias de los profesionales.</p>
-              </div>
-            </div><!-- End Icon Box -->
-
-            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="500">
-              <i class="fa-solid fa-hospital flex-shrink-0"></i>
-              <div>
-                <h4><a href="" class="stretched-link">Ambiente Seguro y Cómodo para Pacientes y Profesionales</a></h4>
-                <p>Desde quirófanos hasta salas de recuperación, The Place ofrece espacios diseñados para la comodidad y recuperación óptima del paciente, así como para el trabajo eficiente de los médicos.</p>
-              </div>
-            </div><!-- End Icon Box -->
-
-            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="600">
-              <i class="fa-solid fa-user-doctor flex-shrink-0"></i>
-              <div>
-                <h4><a href="" class="stretched-link">Equipo de Apoyo Profesional: </a></h4>
-                <p>Disponemos de personal altamente capacitado, como anestesiólogos, instrumentadores y enfermeras, que pueden integrarse al equipo del especialista para asegurar un procedimiento seguro y exitoso.</p>
-              </div>
-            </div><!-- End Icon Box -->
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+      <!-- /About Section -->
+      <!-- Stats Section -->
+      <section id="stats" class="stats section">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row gy-4">
+            <div class="col-lg-3 col-md-6">
+              <div class="stats-item d-flex align-items-center w-100 h-100">
+                <i class="fas fa-award flex-shrink-0"></i>
+                <div>
+                  <span
+                    data-purecounter-start="0"
+                    data-purecounter-end="29"
+                    data-purecounter-duration="1"
+                    class="purecounter"
+                  ></span>
+                  <p>Años de experiencia</p>
+                </div>
+              </div>
+            </div>
+            <!-- End Stats Item -->
 
-    <!-- Tabs Section -->
-    <!-- <section id="tabs" class="tabs section">
+            <div class="col-lg-3 col-md-6">
+              <div class="stats-item d-flex align-items-center w-100 h-100">
+                <i class="far fa-hospital flex-shrink-0"></i>
+                <div>
+                  <span
+                    data-purecounter-start="0"
+                    data-purecounter-end="10000"
+                    data-purecounter-duration="1"
+                    class="purecounter"
+                  ></span>
+                  <p>Procedimientos realizados</p>
+                </div>
+              </div>
+            </div>
+            <!-- End Stats Item -->
+
+            <div class="col-lg-3 col-md-6">
+              <div class="stats-item d-flex align-items-center w-100 h-100">
+                <i class="fas fa-user-md flex-shrink-0"></i>
+                <div>
+                  <span
+                    data-purecounter-start="0"
+                    data-purecounter-end="10"
+                    data-purecounter-duration="1"
+                    class="purecounter"
+                  ></span>
+                  <p>Coaches expertos</p>
+                </div>
+              </div>
+            </div>
+            <!-- End Stats Item -->
+
+            <div class="col-lg-3 col-md-6">
+              <div class="stats-item d-flex align-items-center w-100 h-100">
+                <i class="fas fa-user flex-shrink-0"></i>
+                <div>
+                  <span
+                    data-purecounter-start="0"
+                    data-purecounter-end="3"
+                    data-purecounter-duration="1"
+                    class="purecounter"
+                  ></span>
+                  <p>Salas de cirugia</p>
+                </div>
+              </div>
+            </div>
+            <!-- End Stats Item -->
+          </div>
+        </div>
+      </section>
+      <!-- /Stats Section -->
+
+      <!-- Services Section -->
+      <section id="services" class="services section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Nuestros servicios</h2>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container">
+          <div class="row gy-4">
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="fas fa-hospital"></i>
+                </div>
+                <a href="#" class="stretched-link">
+                  <h3>
+                    Quirófanos para cirugías de hernias de la pared abdominal.
+                  </h3>
+                </a>
+                <p>
+                  Disponemos de quirófanos y espacios adecuados para que los
+                  pacientes ingresen, sean intervenidos, se recuperen y regresen
+                  a casa el mismo día.
+                </p>
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="fas fa-hospital-user"></i>
+                </div>
+                <a href="#" class="stretched-link">
+                  <h3>
+                    Disponibilidad de insumos rutinarios y especializados.
+                  </h3>
+                </a>
+                <p>
+                  Contamos con insumos médicos tanto rutinarios como
+                  especializados, disponibles según los requerimientos del
+                  procedimiento.
+                </p>
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="fas fa-user-doctor"></i>
+                </div>
+                <a href="#" class="stretched-link">
+                  <h3>Soporte especializado en hernias de pared.</h3>
+                </a>
+                <p>
+                  Ofrecemos un equipo de soporte especializado en el tratamiento
+                  de hernias de pared, con juntas médicas para la presentación y
+                  discusión de casos clínicos, además de acompañamiento por
+                  profesores expertos durante las cirugías.
+                </p>
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="400"
+            >
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="fa-solid fa-graduation-cap"></i>
+                </div>
+                <a href="#" class="stretched-link">
+                  <h3>Capacitación y Asesoría Médica</h3>
+                </a>
+                <p>
+                  Además de los servicios de alquiler y equipamiento, The Place
+                  organiza regularmente capacitaciones y asesorías sobre las
+                  últimas técnicas de tratamiento de hernias.
+                </p>
+                <a href="#" class="stretched-link"></a>
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="600"
+            >
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="fas fa-user"></i>
+                </div>
+                <a href="#" class="stretched-link">
+                  <h3>Gestión y Coordinación de Pacientes</h3>
+                </a>
+                <p>
+                  Ofrecemos servicios de gestión y coordinación de pacientes,
+                  incluyendo el proceso de admisión, trámites administrativos, y
+                  atención pre y post-operatoria.
+                </p>
+                <a href="#" class="stretched-link"></a>
+              </div>
+            </div>
+            <!-- End Service Item -->
+          </div>
+        </div>
+      </section>
+      <!-- /Services Section -->
+
+      <!-- Features Section -->
+      <section id="features" class="features section">
+        <div class="container">
+          <div class="row justify-content-around gy-4">
+            <div
+              class="features-image col-lg-6"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <img src="assets/img/doctors/doc-6.png" alt="" />
+            </div>
+
+            <div
+              class="col-lg-5 d-flex flex-column justify-content-center"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <h3>Calidad, seguridad y enfoque único</h3>
+              <p>
+                Nuestro enfoque exclusivo nos permite optimizar cada detalle,
+                asegurando que los profesionales de la salud puedan concentrarse
+                en brindar atención de excelencia.
+              </p>
+
+              <div
+                class="icon-box d-flex position-relative"
+                data-aos="fade-up"
+                data-aos-delay="300"
+              >
+                <i class="fa-solid fa-award flex-shrink-0"></i>
+                <div>
+                  <h4>
+                    <a href="" class="stretched-link"
+                      >Atención Integral en Tratamientos de Hernias.</a
+                    >
+                  </h4>
+                  <p>
+                    Nuestras instalaciones y servicios están diseñados para
+                    ofrecer el máximo apoyo y calidad en cada tratamiento,
+                    adaptándonos a las necesidades específicas de cada paciente.
+                  </p>
+                </div>
+              </div>
+              <!-- End Icon Box -->
+
+              <div
+                class="icon-box d-flex position-relative"
+                data-aos="fade-up"
+                data-aos-delay="400"
+              >
+                <i class="fa-solid fa-suitcase-medical flex-shrink-0"></i>
+                <div>
+                  <h4>
+                    <a href="" class="stretched-link"
+                      >Equipamiento de Última Generación
+                    </a>
+                  </h4>
+                  <p>
+                    Contamos con tecnología avanzada y herramientas quirúrgicas
+                    especializadas que optimizan la precisión y seguridad en
+                    cada procedimiento, ofreciendo un entorno adaptado a las
+                    exigencias de los profesionales.
+                  </p>
+                </div>
+              </div>
+              <!-- End Icon Box -->
+
+              <div
+                class="icon-box d-flex position-relative"
+                data-aos="fade-up"
+                data-aos-delay="500"
+              >
+                <i class="fa-solid fa-hospital flex-shrink-0"></i>
+                <div>
+                  <h4>
+                    <a href="" class="stretched-link"
+                      >Ambiente Seguro y Cómodo para Pacientes y
+                      Profesionales</a
+                    >
+                  </h4>
+                  <p>
+                    Desde quirófanos hasta salas de recuperación, The Place
+                    ofrece espacios diseñados para la comodidad y recuperación
+                    óptima del paciente, así como para el trabajo eficiente de
+                    los médicos.
+                  </p>
+                </div>
+              </div>
+              <!-- End Icon Box -->
+
+              <div
+                class="icon-box d-flex position-relative"
+                data-aos="fade-up"
+                data-aos-delay="600"
+              >
+                <i class="fa-solid fa-user-doctor flex-shrink-0"></i>
+                <div>
+                  <h4>
+                    <a href="" class="stretched-link"
+                      >Equipo de Apoyo Profesional:
+                    </a>
+                  </h4>
+                  <p>
+                    Disponemos de personal altamente capacitado, como
+                    anestesiólogos, instrumentadores y enfermeras, que pueden
+                    integrarse al equipo del especialista para asegurar un
+                    procedimiento seguro y exitoso.
+                  </p>
+                </div>
+              </div>
+              <!-- End Icon Box -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Tabs Section -->
+      <!-- <section id="tabs" class="tabs section">
 
 
       <div class="container section-title" data-aos="fade-up">
@@ -419,440 +598,807 @@
 
     </section>/Tabs Section -->
 
-    <!-- Doctors Section -->
-    <section id="doctors" class="doctors section light-background">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Nuestro equipo de expertos</h2>
-        <p>Un equipo de expertos en diversas áreas, con años de trayectoria y reconocidos como referentes en sus especialidades.</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-            <div class="team-member">
-              <div class="member-img">
-                <img src="assets/img/doctors/doc-1.png" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-whatsapp"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Dr. John Henry Moore</h4>
-                <span>Cirujano General</span>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-            <div class="team-member">
-              <div class="member-img">
-                <img src="assets/img/doctors/doc-2.png" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-whatsapp"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Dr. Felipe Gomez</h4>
-                <span>Cirujano General</span>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
-            <div class="team-member">
-              <div class="member-img">
-                <img src="assets/img/doctors/doc-4.png" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-whatsapp"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Dr. Charles Bermudez</h4>
-                <span>Cirujano General</span>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
-            <div class="team-member">
-              <div class="member-img">
-                <img src="assets/img/doctors/doc-5.png" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-whatsapp"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Dr. Arnold Barrios</h4>
-                <span>Cirujano General</span>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
-
+      <!-- Doctors Section -->
+      <section id="doctors" class="doctors section light-background">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Nuestro equipo de expertos</h2>
+          <p>
+            Un equipo de expertos en diversas áreas, con años de trayectoria y
+            reconocidos como referentes en sus especialidades.
+          </p>
         </div>
-        <br>
-        <div class="row gy-4">
+        <!-- End Section Title -->
 
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-            <div class="team-member">
-              <div class="member-img">
-                <img src="assets/img/doctors/doc-12.png" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-whatsapp"></i></a>
+        <div class="container">
+          <div class="row gy-4">
+            <div
+              class="col-lg-3 col-md-6 d-flex align-items-stretch"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="team-member">
+                <div class="member-img">
+                  <img
+                    src="assets/img/doctors/doc-1.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div class="social">
+                    <a href=""><i class="bi bi-whatsapp"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h4>Dr. John Henry Moore</h4>
+                  <span>Cirujano General</span>
                 </div>
               </div>
-              <div class="member-info">
-                <h4>Dr. Ricardo Meissner</h4>
-                <span>Cirujano General</span>
-              </div>
             </div>
-          </div><!-- End Team Member -->
+            <!-- End Team Member -->
 
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-            <div class="team-member">
-              <div class="member-img">
-                <img src="assets/img/doctors/doc-7.png" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-whatsapp"></i></a>
+            <div
+              class="col-lg-3 col-md-6 d-flex align-items-stretch"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="team-member">
+                <div class="member-img">
+                  <img
+                    src="assets/img/doctors/doc-2.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div class="social">
+                    <a href=""><i class="bi bi-whatsapp"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h4>Dr. Felipe Gomez</h4>
+                  <span>Cirujano General</span>
                 </div>
               </div>
-              <div class="member-info">
-                <h4>Dr. Fernando Aguirre</h4>
-                <span>Cirujano General</span>
-              </div>
             </div>
-          </div><!-- End Team Member -->
+            <!-- End Team Member -->
 
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
-            <div class="team-member">
-              <div class="member-img">
-                <img src="assets/img/doctors/doc-8.png" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-whatsapp"></i></a>
+            <div
+              class="col-lg-3 col-md-6 d-flex align-items-stretch"
+              data-aos="fade-up"
+              data-aos-delay="400"
+            >
+              <div class="team-member">
+                <div class="member-img">
+                  <img
+                    src="assets/img/doctors/doc-4.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div class="social">
+                    <a href=""><i class="bi bi-whatsapp"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h4>Dr. Charles Bermudez</h4>
+                  <span>Cirujano General</span>
                 </div>
               </div>
-              <div class="member-info">
-                <h4>Dr. Gabriel Gonzalez</h4>
-                <span>Cirujano General</span>
-              </div>
             </div>
-          </div><!-- End Team Member -->
+            <!-- End Team Member -->
 
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
-            <div class="team-member">
-              <div class="member-img">
-                <img src="assets/img/doctors/doc-9.png" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-whatsapp"></i></a>
+            <div
+              class="col-lg-3 col-md-6 d-flex align-items-stretch"
+              data-aos="fade-up"
+              data-aos-delay="400"
+            >
+              <div class="team-member">
+                <div class="member-img">
+                  <img
+                    src="assets/img/doctors/doc-5.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div class="social">
+                    <a href=""><i class="bi bi-whatsapp"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h4>Dr. Arnold Barrios</h4>
+                  <span>Cirujano General</span>
                 </div>
               </div>
-              <div class="member-info">
-                <h4>Dr. Henry Martinez</h4>
-                <span>Cirujano General</span>
+            </div>
+            <!-- End Team Member -->
+          </div>
+          <br />
+          <div class="row gy-4">
+            <div
+              class="col-lg-3 col-md-6 d-flex align-items-stretch"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="team-member">
+                <div class="member-img">
+                  <img
+                    src="assets/img/doctors/doc-12.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div class="social">
+                    <a href=""><i class="bi bi-whatsapp"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h4>Dr. Ricardo Meissner</h4>
+                  <span>Cirujano General</span>
+                </div>
               </div>
             </div>
-          </div><!-- End Team Member -->
+            <!-- End Team Member -->
 
+            <div
+              class="col-lg-3 col-md-6 d-flex align-items-stretch"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="team-member">
+                <div class="member-img">
+                  <img
+                    src="assets/img/doctors/doc-7.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div class="social">
+                    <a href=""><i class="bi bi-whatsapp"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h4>Dr. Fernando Aguirre</h4>
+                  <span>Cirujano General</span>
+                </div>
+              </div>
+            </div>
+            <!-- End Team Member -->
+
+            <div
+              class="col-lg-3 col-md-6 d-flex align-items-stretch"
+              data-aos="fade-up"
+              data-aos-delay="400"
+            >
+              <div class="team-member">
+                <div class="member-img">
+                  <img
+                    src="assets/img/doctors/doc-8.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div class="social">
+                    <a href=""><i class="bi bi-whatsapp"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h4>Dr. Gabriel Gonzalez</h4>
+                  <span>Cirujano General</span>
+                </div>
+              </div>
+            </div>
+            <!-- End Team Member -->
+
+            <div
+              class="col-lg-3 col-md-6 d-flex align-items-stretch"
+              data-aos="fade-up"
+              data-aos-delay="400"
+            >
+              <div class="team-member">
+                <div class="member-img">
+                  <img
+                    src="assets/img/doctors/doc-9.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div class="social">
+                    <a href=""><i class="bi bi-whatsapp"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h4>Dr. Henry Martinez</h4>
+                  <span>Cirujano General</span>
+                </div>
+              </div>
+            </div>
+            <!-- End Team Member -->
+          </div>
+          <br />
+          <div class="row gy-4">
+            <div
+              class="col-lg-3 col-md-6 d-flex align-items-stretch"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="team-member">
+                <div class="member-img">
+                  <img
+                    src="assets/img/doctors/doc-10.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div class="social">
+                    <a href=""><i class="bi bi-whatsapp"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h4>Dr. Juan Carlos Ayala</h4>
+                  <span>Cirujano General</span>
+                </div>
+              </div>
+            </div>
+            <!-- End Team Member -->
+
+            <div
+              class="col-lg-3 col-md-6 d-flex align-items-stretch"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="team-member">
+                <div class="member-img">
+                  <img
+                    src="assets/img/doctors/doc-11.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div class="social">
+                    <a href=""><i class="bi bi-whatsapp"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h4>Dr. Mauricio Girón</h4>
+                  <span>Cirujano General</span>
+                </div>
+              </div>
+            </div>
+            <!-- End Team Member -->
+
+            <div
+              class="col-lg-3 col-md-6 d-flex align-items-stretch"
+              data-aos="fade-up"
+              data-aos-delay="400"
+            >
+              <div class="team-member">
+                <div class="member-img">
+                  <img
+                    src="assets/img/doctors/doc-13.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div class="social">
+                    <a href=""><i class="bi bi-whatsapp"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h4>Dr. Oswaldo Borraez</h4>
+                  <span>Cirujano General</span>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-3 col-md-6 d-flex"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="team-member">
+                <div class="member-img">
+                  <img
+                    src="assets/img/doctors/juanMartinez.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div class="social">
+                    <a href=""><i class="bi bi-whatsapp"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h4>Dr. Juan David Martínez</h4>
+                  <span>Cirujano General</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- End Team Member -->
+          </div>
         </div>
-        <br>
-        <div class="row gy-4">
+      </section>
+      <!-- /Doctors Section -->
 
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-            <div class="team-member">
-              <div class="member-img">
-                <img src="assets/img/doctors/doc-10.png" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-whatsapp"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Dr. Juan Carlos Ayala</h4>
-                <span>Cirujano General</span>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-            <div class="team-member">
-              <div class="member-img">
-                <img src="assets/img/doctors/doc-11.png" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-whatsapp"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Dr. Mauricio Girón</h4>
-                <span>Cirujano General</span>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
-            <div class="team-member">
-              <div class="member-img">
-                <img src="assets/img/doctors/doc-13.png" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-whatsapp"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Dr. Oswaldo Borraez</h4>
-                <span>Cirujano General</span>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
+      <!-- Gallery Section -->
+      <section id="gallery" class="gallery section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Nuestras instalaciones</h2>
         </div>
+        <!-- End Section Title -->
 
-      </div>
-
-    </section><!-- /Doctors Section -->
-
-    <!-- Gallery Section -->
-    <section id="gallery" class="gallery section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Nuestras instalaciones</h2>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="swiper init-swiper">
-          <script type="application/json" class="swiper-config">
-            {
-              "loop": true,
-              "speed": 600,
-              "autoplay": {
-                "delay": 5000
-              },
-              "slidesPerView": "auto",
-              "centeredSlides": true,
-              "pagination": {
-                "el": ".swiper-pagination",
-                "type": "bullets",
-                "clickable": true
-              },
-              "breakpoints": {
-                "320": {
-                  "slidesPerView": 1,
-                  "spaceBetween": 0
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper init-swiper">
+            <script type="application/json" class="swiper-config">
+              {
+                "loop": true,
+                "speed": 600,
+                "autoplay": {
+                  "delay": 5000
                 },
-                "768": {
-                  "slidesPerView": 3,
-                  "spaceBetween": 20
+                "slidesPerView": "auto",
+                "centeredSlides": true,
+                "pagination": {
+                  "el": ".swiper-pagination",
+                  "type": "bullets",
+                  "clickable": true
                 },
-                "1200": {
-                  "slidesPerView": 5,
-                  "spaceBetween": 20
+                "breakpoints": {
+                  "320": {
+                    "slidesPerView": 1,
+                    "spaceBetween": 0
+                  },
+                  "768": {
+                    "slidesPerView": 3,
+                    "spaceBetween": 20
+                  },
+                  "1200": {
+                    "slidesPerView": 5,
+                    "spaceBetween": 20
+                  }
                 }
               }
-            }
-          </script>
-          <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/cca-1.jpg"><img src="assets/img/gallery/cca-1.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/cca-2.jpg"><img src="assets/img/gallery/cca-2.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/cca-3.jpg"><img src="assets/img/gallery/cca-3.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/cca-4.jpg"><img src="assets/img/gallery/cca-4.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/cca-5.jpg"><img src="assets/img/gallery/cca-1.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/cca-6.jpg"><img src="assets/img/gallery/cca-2.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/cca-7.jpg.jpg"><img src="assets/img/gallery/cca-3.jpg" class="img-fluid" alt=""></a></div>
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-
-    </section><!-- /Gallery Section -->
-
-    <!-- Faq Section -->
-    <section id="faq" class="faq section light-background">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Preguntas frecuentes</h2>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row justify-content-center">
-
-          <div class="col-lg-10" data-aos="fade-up" data-aos-delay="100">
-
-            <div class="faq-container">
-
-              <div class="faq-item">
-                <h3>¿Qué servicios incluye el alquiler de los espacios quirúrgicos en The Place?</h3>
-                <div class="faq-content">
-                  <p>Nuestro servicio incluye personal de administración y programación, asistentes quirúrgicos, enfermeras, personal circulante, instrumentadores, auxiliares de cirugía, anestesiólogos y, si el cirujano lo solicita, coaches o tutores para apoyo especializado.</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
-              <div class="faq-item">
-                <h3>¿Puedo traer mi propio equipo médico o personal de apoyo?</h3>
-                <div class="faq-content">
-                  <p>No, todo el personal y los recursos necesarios serán proporcionados por CCA. Nuestra misión en The Place es encargarnos de todos los detalles, para que no tengas que preocuparte por nada y puedas centrarte exclusivamente en el procedimiento.</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
-              <div class="faq-item">
-                <h3>¿Qué tipo de procedimientos de hernia se pueden realizar en las instalaciones?</h3>
-                <div class="faq-content">
-                  <p>Ofrecemos procedimientos de corrección de hernias de la pared abdominal utilizando tanto técnicas abiertas como laparoscópicas, adaptándonos a las necesidades específicas de cada paciente y caso.</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
-              <div class="faq-item">
-                <h3>¿Cómo se manejan las medidas de seguridad e higiene en The Place?</h3>
-                <div class="faq-content">
-                  <p>Mantenemos estrictos protocolos de limpieza y desinfección antes y después de cada procedimiento. Además, nuestras instalaciones están equipadas con sistemas de control de infecciones y ventilación para garantizar un ambiente seguro y estéril.</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
-              <div class="faq-item">
-                <h3>¿Puedo coordinar la recuperación de mis pacientes en The Place?</h3>
-                <div class="faq-content">
-                  <p>Sí, ofrecemos salas de recuperación diseñadas para la comodidad y el monitoreo adecuado de los pacientes postoperatorios. También contamos con personal de enfermería disponible para asistir en el proceso de recuperación según lo requiera cada procedimiento.</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
+            </script>
+            <div class="swiper-wrapper align-items-center">
+              <div class="swiper-slide">
+                <a
+                  class="glightbox"
+                  data-gallery="images-gallery"
+                  href="assets/img/gallery/cca-1.jpg"
+                  ><img
+                    src="assets/img/gallery/cca-1.jpg"
+                    class="img-fluid"
+                    alt=""
+                /></a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  class="glightbox"
+                  data-gallery="images-gallery"
+                  href="assets/img/gallery/cca-2.jpg"
+                  ><img
+                    src="assets/img/gallery/cca-10.jpeg"
+                    class="img-fluid"
+                    alt=""
+                /></a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  class="glightbox"
+                  data-gallery="images-gallery"
+                  href="assets/img/gallery/cca-3.jpg"
+                  ><img
+                    src="assets/img/gallery/cca-8.jpeg"
+                    class="img-fluid"
+                    alt=""
+                /></a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  class="glightbox"
+                  data-gallery="images-gallery"
+                  href="assets/img/gallery/cca-4.jpg"
+                  ><img
+                    src="assets/img/gallery/cca-9.jpeg"
+                    class="img-fluid"
+                    alt=""
+                /></a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  class="glightbox"
+                  data-gallery="images-gallery"
+                  href="assets/img/gallery/cca-5.jpg"
+                  ><img
+                    src="assets/img/gallery/cca-1.jpg"
+                    class="img-fluid"
+                    alt=""
+                /></a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  class="glightbox"
+                  data-gallery="images-gallery"
+                  href="assets/img/gallery/cca-6.jpg"
+                  ><img
+                    src="assets/img/gallery/cca-11.jpeg"
+                    class="img-fluid"
+                    alt=""
+                /></a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  class="glightbox"
+                  data-gallery="images-gallery"
+                  href="assets/img/gallery/cca-7.jpg"
+                  ><img
+                    src="assets/img/gallery/cca-3.jpg"
+                    class="img-fluid"
+                    alt=""
+                /></a>
+              </div>
             </div>
-
-          </div><!-- End Faq Column-->
-
+            <div class="swiper-pagination"></div>
+          </div>
         </div>
+      </section>
+      <!-- /Gallery Section -->
 
-      </div>
+      <!-- Faq Section -->
+      <section id="faq" class="faq section light-background">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Preguntas frecuentes</h2>
+        </div>
+        <!-- End Section Title -->
 
-    </section><!-- /Faq Section -->
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-10" data-aos="fade-up" data-aos-delay="100">
+              <div class="faq-container">
+                <div class="faq-item">
+                  <h3>
+                    ¿Qué servicios incluye el alquiler de los espacios
+                    quirúrgicos en The Place?
+                  </h3>
+                  <div class="faq-content">
+                    <p>
+                      Nuestro servicio incluye personal de administración y
+                      programación, asistentes quirúrgicos, enfermeras, personal
+                      circulante, instrumentadores, auxiliares de cirugía,
+                      anestesiólogos y, si el cirujano lo solicita, coaches o
+                      tutores para apoyo especializado.
+                    </p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div>
+                <!-- End Faq item-->
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact section">
+                <div class="faq-item">
+                  <h3>
+                    ¿Puedo traer mi propio equipo médico o personal de apoyo?
+                  </h3>
+                  <div class="faq-content">
+                    <p>
+                      No, todo el personal y los recursos necesarios serán
+                      proporcionados por CCA. Nuestra misión en The Place es
+                      encargarnos de todos los detalles, para que no tengas que
+                      preocuparte por nada y puedas centrarte exclusivamente en
+                      el procedimiento.
+                    </p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div>
+                <!-- End Faq item-->
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Contácto</h2>
-      </div><!-- End Section Title -->
+                <div class="faq-item">
+                  <h3>
+                    ¿Qué tipo de procedimientos de hernia se pueden realizar en
+                    las instalaciones?
+                  </h3>
+                  <div class="faq-content">
+                    <p>
+                      Ofrecemos procedimientos de corrección de hernias de la
+                      pared abdominal utilizando tanto técnicas abiertas como
+                      laparoscópicas, adaptándonos a las necesidades específicas
+                      de cada paciente y caso.
+                    </p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div>
+                <!-- End Faq item-->
 
-      <div class="mb-5" data-aos="fade-up" data-aos-delay="200">
-        <iframe style="border:0; width: 100%; height: 370px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.5325288633844!2d-74.062399925413!3d4.677086195297818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f98d170f94299%3A0x3bc6b0a97abd6126!2sCl.%2089a%20%2320-57%2C%20Bogot%C3%A1!5e0!3m2!1ses-419!2sco!4v1731155902841!5m2!1ses-419!2sco" frameborder="0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </div>
-      <!-- End Google Maps -->
+                <div class="faq-item">
+                  <h3>
+                    ¿Cómo se manejan las medidas de seguridad e higiene en The
+                    Place?
+                  </h3>
+                  <div class="faq-content">
+                    <p>
+                      Mantenemos estrictos protocolos de limpieza y desinfección
+                      antes y después de cada procedimiento. Además, nuestras
+                      instalaciones están equipadas con sistemas de control de
+                      infecciones y ventilación para garantizar un ambiente
+                      seguro y estéril.
+                    </p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div>
+                <!-- End Faq item-->
 
+                <div class="faq-item">
+                  <h3>
+                    ¿Puedo coordinar la recuperación de mis pacientes en The
+                    Place?
+                  </h3>
+                  <div class="faq-content">
+                    <p>
+                      Sí, ofrecemos salas de recuperación diseñadas para la
+                      comodidad y el monitoreo adecuado de los pacientes
+                      postoperatorios. También contamos con personal de
+                      enfermería disponible para asistir en el proceso de
+                      recuperación según lo requiera cada procedimiento.
+                    </p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div>
+                <!-- End Faq item-->
+              </div>
+            </div>
+            <!-- End Faq Column-->
+          </div>
+        </div>
+      </section>
+      <!-- /Faq Section -->
+
+      <!-- Contact Section -->
+      <section id="contact" class="contact section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Contacto</h2>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="mb-5" data-aos="fade-up" data-aos-delay="200">
+          <iframe
+            style="border: 0; width: 100%; height: 370px"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.5325288633844!2d-74.062399925413!3d4.677086195297818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f98d170f94299%3A0x3bc6b0a97abd6126!2sCl.%2089a%20%2320-57%2C%20Bogot%C3%A1!5e0!3m2!1ses-419!2sco!4v1731155902841!5m2!1ses-419!2sco"
+            frameborder="0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <!-- End Google Maps -->
 
         <div class="row gy-4">
-          <div class="col-lg-12 ">
+          <div class="col-lg-12">
             <div class="row gy-4">
-
               <div class="col-lg-12">
-                <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="200">
+                <div
+                  class="info-item d-flex flex-column justify-content-center align-items-center"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                >
                   <i class="bi bi-geo-alt"></i>
                   <h3>Dirección</h3>
                   <p>Calle 89a #20-57</p>
                 </div>
-              </div><!-- End Info Item -->
+              </div>
+              <!-- End Info Item -->
 
               <div class="col-md-6">
-                <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="300">
+                <div
+                  class="info-item d-flex flex-column justify-content-center align-items-center"
+                  data-aos="fade-up"
+                  data-aos-delay="300"
+                >
                   <i class="bi bi-telephone"></i>
                   <h3>Teléfono</h3>
                   <p>+57 3027527053</p>
                 </div>
-              </div><!-- End Info Item -->
+              </div>
+              <!-- End Info Item -->
 
               <div class="col-md-6">
-                <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="400">
+                <div
+                  class="info-item d-flex flex-column justify-content-center align-items-center"
+                  data-aos="fade-up"
+                  data-aos-delay="400"
+                >
                   <i class="bi bi-envelope"></i>
                   <h3>Email</h3>
-                  <p>theplaceccaipsltda@gmail.com </p>
+                  <p>theplaceccaipsltda@gmail.com</p>
                 </div>
-              </div><!-- End Info Item -->
-
+              </div>
+              <!-- End Info Item -->
             </div>
           </div>
         </div>
+      </section>
+      <!-- /Contact Section -->
+    </main>
 
-      </div>
-
-    </section><!-- /Contact Section -->
-
-  </main>
-
-  <footer id="footer" class="footer light-background">
-
-    <div class="container footer-top">
-      <div class="row gy-4">
-        <div class="col-lg-4 col-md-6 footer-about">
-          <a href="index.html" class="logo d-flex align-items-center">
-            <img src="assets/img/gallery/logo-1.png" alt="">
-          </a>
-          <div class="footer-contact pt-3">
-            <p>Calle 89a # 20-57</p>
-            <p>Bogotá, Colombia</p>
-            <p class="mt-3"><strong>Teléfono:</strong> <span>+57 302 752 7053</span></p>
-            <p><strong>Email:</strong> <span>theplaceccaipsltda@gmail.com </span></p>
+    <footer id="footer" class="footer light-background">
+      <div class="container footer-top">
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6 footer-about">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <img src="assets/img/gallery/logo-1.png" alt="" />
+            </a>
+            <div class="footer-contact pt-3">
+              <p>Calle 89a # 20-57</p>
+              <p>Bogotá, Colombia</p>
+              <p class="mt-3">
+                <strong>Teléfono:</strong> <span>+57 302 752 7053</span>
+              </p>
+              <p>
+                <strong>Email:</strong>
+                <span>theplaceccaipsltda@gmail.com </span>
+              </p>
+            </div>
+            <div class="social-links d-flex mt-4">
+              <a href="https://www.tiktok.com/@theplacecca?_t=8rE1L7GAhWy&_r=1"
+                ><i class="bi bi-tiktok"></i
+              ></a>
+              <a href="https://www.facebook.com/share/12ANuCGrEPe/"
+                ><i class="bi bi-facebook"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/theplacecca?igsh=dThndmg4dG95b2J0 "
+                ><i class="bi bi-instagram"></i
+              ></a>
+            </div>
           </div>
-          <div class="social-links d-flex mt-4">
-            <a href="https://www.tiktok.com/@theplacecca?_t=8rE1L7GAhWy&_r=1"><i class="bi bi-tiktok"></i></a>
-            <a href="https://www.facebook.com/share/12ANuCGrEPe/"><i class="bi bi-facebook"></i></a>
-            <a href="https://www.instagram.com/theplacecca?igsh=dThndmg4dG95b2J0 "><i class="bi bi-instagram"></i></a>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Links de ayuda</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#about">Sobre nosotros</a></li>
+              <li><a href="#services">Servicios</a></li>
+              <li><a href="#team">Nuestro equipo</a></li>
+              <li><a href="#gallery">Política de privacidad</a></li>
+            </ul>
           </div>
         </div>
+      </div>
 
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Links de ayuda</h4>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#about">Sobre nosotros</a></li>
-            <li><a href="#services">Servicios</a></li>
-            <li><a href="#team">Nuestro equipo</a></li>
-            <li><a href="#gallery">Política de privacidad</a></li>
-          </ul>
+      <div class="container copyright text-center mt-4">
+        <p>
+          © <span>Copyright</span>
+          <strong class="px-1 sitename"
+            >The Place - Centro de Excelencia</strong
+          >
+          <span>All Rights Reserved</span>
+        </p>
+        <div class="credits">
+          Designed by <a href="https://bootstrapmade.com/">Eleva</a>
         </div>
-
       </div>
+    </footer>
+
+    <!-- Scroll Top -->
+    <a
+      href="#"
+      id="scroll-top"
+      class="scroll-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <!-- Preloader -->
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+    <div class="wabtn" id="wabutton">
+      <style>
+        [wa-tooltip] {
+          position: relative;
+          cursor: default;
+          &:hover {
+            &::before {
+              content: attr(wa-tooltip);
+              font-size: 16px;
+              text-align: center;
+              position: absolute;
+              display: block;
+              right: calc(0% - 100px);
+              left: null;
+              min-width: 200px;
+              max-width: 200px;
+              bottom: calc(100% + 10px);
+              transform: translate(-50%);
+              animation: fade-in 500ms ease;
+              background: #00e785;
+              border-radius: 4px;
+              padding: 10px;
+              color: #ffffff;
+              z-index: 1;
+            }
+          }
+        }
+        @keyframes pulse {
+          0% {
+            transform: scale(1);
+          }
+          50% {
+            transform: scale(1.1);
+          }
+          100% {
+            transform: scale(1);
+          }
+        }
+        [wa-tooltip] {
+        }
+        @keyframes fade-in {
+          from {
+            opacity: 0;
+          }
+          to {
+            opacity: 1;
+          }
+        }
+      </style>
+      <a
+        wa-tooltip="¿Necesitas ayuda?"
+        target="_self"
+        href="https://wa.me/573027527053?text=%C2%A1Hola!%20%F0%9F%91%8B%F0%9F%8F%BB,%20Me%20interesa%20m%C3%A1s%20informaci%C3%B3n%20sobre%20The%20Place.%20%C2%BFPuedo%20chatear%20con%20alguien?"
+        style="
+          cursor: pointer;
+          height: 62px;
+          width: auto;
+          padding: 10px 10px 10px 10px;
+          position: fixed !important;
+          color: #fff;
+          bottom: 20px;
+          right: 20px;
+          display: flex;
+          font-size: 18px;
+          font-weight: 600;
+          align-items: center;
+          z-index: 999999999 !important;
+          background-color: #00e785;
+          box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.4);
+          border-radius: 100px;
+          animation: pulse 2.5s ease infinite;
+        "
+      >
+        <svg
+          width="42"
+          height="42"
+          style="padding: 5px"
+          viewBox="0 0 28 28"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g clip-path="url(#clip0_1024_354)">
+            <path
+              d="M23.8759 4.06939C21.4959 1.68839 18.3316 0.253548 14.9723 0.0320463C11.613 -0.189455 8.28774 0.817483 5.61565 2.86535C2.94357 4.91323 1.10682 7.86244 0.447451 11.1638C-0.21192 14.4652 0.351026 17.8937 2.03146 20.8109L0.0625 28.0004L7.42006 26.0712C9.45505 27.1794 11.7353 27.7601 14.0524 27.7602H14.0583C16.8029 27.7599 19.4859 26.946 21.768 25.4212C24.0502 23.8965 25.829 21.7294 26.8798 19.1939C27.9305 16.6583 28.206 13.8682 27.6713 11.1761C27.1367 8.48406 25.8159 6.01095 23.8759 4.06939ZM14.0583 25.4169H14.0538C11.988 25.417 9.96008 24.8617 8.1825 23.8091L7.7611 23.5593L3.3945 24.704L4.56014 20.448L4.28546 20.0117C2.92594 17.8454 2.32491 15.2886 2.57684 12.7434C2.82877 10.1982 3.91938 7.80894 5.67722 5.95113C7.43506 4.09332 9.76045 2.87235 12.2878 2.48017C14.8152 2.08799 17.4013 2.54684 19.6395 3.78457C21.8776 5.02231 23.641 6.96875 24.6524 9.3179C25.6638 11.6671 25.8659 14.2857 25.2268 16.7622C24.5877 19.2387 23.1438 21.4326 21.122 22.999C19.1001 24.5655 16.6151 25.4156 14.0575 25.4157L14.0583 25.4169Z"
+              fill="#E0E0E0"
+            ></path>
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M10.6291 7.98363C10.3723 7.41271 10.1019 7.40123 9.85771 7.39143C9.65779 7.38275 9.42903 7.38331 9.20083 7.38331C9.0271 7.3879 8.8562 7.42837 8.69887 7.5022C8.54154 7.57602 8.40119 7.68159 8.28663 7.81227C7.899 8.17929 7.59209 8.62305 7.38547 9.11526C7.17884 9.60747 7.07704 10.1373 7.08655 10.6711C7.08655 12.3578 8.31519 13.9877 8.48655 14.2164C8.65791 14.4452 10.8581 18.0169 14.3425 19.3908C17.2382 20.5327 17.8276 20.3056 18.4562 20.2485C19.0848 20.1913 20.4843 19.4194 20.7701 18.6189C21.056 17.8183 21.0557 17.1323 20.9701 16.989C20.8844 16.8456 20.6559 16.7605 20.3129 16.5889C19.9699 16.4172 18.2849 15.5879 17.9704 15.4736C17.656 15.3594 17.4275 15.3023 17.199 15.6455C16.9705 15.9888 16.3139 16.7602 16.1137 16.9895C15.9135 17.2189 15.7136 17.2471 15.3709 17.0758C14.3603 16.6729 13.4275 16.0972 12.6143 15.3745C11.8648 14.6818 11.2221 13.8819 10.7072 13.0007C10.5073 12.6579 10.6857 12.472 10.8579 12.3007C11.0119 12.1472 11.2006 11.9005 11.3722 11.7003C11.5129 11.5271 11.6282 11.3346 11.7147 11.1289C11.7603 11.0343 11.7817 10.9299 11.7768 10.825C11.7719 10.7201 11.7409 10.6182 11.6867 10.5283C11.6001 10.3566 10.9337 8.66151 10.6291 7.98363Z"
+              fill="white"
+            ></path>
+            <path
+              d="M23.7628 4.02445C21.4107 1.66917 18.2825 0.249336 14.9611 0.0294866C11.6397 -0.190363 8.35161 0.804769 5.70953 2.82947C3.06745 4.85417 1.25154 7.77034 0.600156 11.0346C-0.051233 14.299 0.506321 17.6888 2.16894 20.5724L0.222656 27.6808L7.49566 25.7737C9.50727 26.8692 11.7613 27.4432 14.0519 27.4434H14.0577C16.7711 27.4436 19.4235 26.6392 21.6798 25.1321C23.936 23.6249 25.6947 21.4825 26.7335 18.9759C27.7722 16.4693 28.0444 13.711 27.5157 11.0497C26.9869 8.38835 25.6809 5.94358 23.7628 4.02445ZM14.0577 25.1269H14.0547C12.0125 25.1271 10.0078 24.5782 8.25054 23.5377L7.8339 23.2907L3.51686 24.4222L4.66906 20.2143L4.39774 19.7831C3.05387 17.6415 2.4598 15.1141 2.70892 12.598C2.95804 10.082 4.03622 7.72013 5.77398 5.88366C7.51173 4.04719 9.81051 2.84028 12.3089 2.45266C14.8074 2.06505 17.3638 2.5187 19.5763 3.74232C21.7888 4.96593 23.5319 6.89011 24.5317 9.21238C25.5314 11.5346 25.7311 14.1233 25.0993 16.5714C24.4675 19.0195 23.0401 21.1883 21.0414 22.7367C19.0427 24.2851 16.5861 25.1254 14.0577 25.1255V25.1269Z"
+              fill="white"
+            ></path>
+          </g>
+          <defs>
+            <clipPath id="clip0_1024_354">
+              <rect
+                width="27.8748"
+                height="28"
+                fill="white"
+                transform="translate(0.0625)"
+              ></rect>
+            </clipPath>
+          </defs>
+        </svg>
+        <span class="button-text"></span>
+      </a>
     </div>
-
-    <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">The Place - Centro de Excelencia</strong> <span>All Rights Reserved</span></p>
-      <div class="credits">
-        Designed by <a href="https://bootstrapmade.com/">Eleva</a>
-      </div>
-    </div>
-
-  </footer>
-
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Preloader -->
-  <div id="preloader"></div>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-
-  <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-  <div class="wabtn" id="wabutton">
-    <style> [wa-tooltip] { position: relative; cursor: default;  &:hover { &::before { content: attr(wa-tooltip); font-size: 16px; text-align: center; position: absolute; display: block; right: calc(0% - 100px); left: null; min-width: 200px; max-width: 200px; bottom: calc(100% + 10px); transform: translate(-50%); animation: fade-in 500ms ease; background: #00E785; border-radius: 4px; padding: 10px; color: #ffffff; z-index: 1; } } }  @keyframes pulse { 0% { transform: scale(1); } 50% { transform: scale(1.1); } 100% { transform: scale(1); } }  [wa-tooltip] {  }  @keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }</style>
-    <a wa-tooltip="¿Necesitas ayuda?" target="_self" href="https://wa.me/573027527053?text=%C2%A1Hola!%20%F0%9F%91%8B%F0%9F%8F%BB,%20Me%20interesa%20m%C3%A1s%20informaci%C3%B3n%20sobre%20The%20Place.%20%C2%BFPuedo%20chatear%20con%20alguien?" style=" cursor: pointer;height: 62px;width: auto;padding: 10px 10px 10px 10px;position: fixed !important;color: #fff;bottom: 20px;right: 20px;;display: flex;font-size: 18px;font-weight: 600;align-items: center;z-index: 999999999 !important;background-color: #00E785;box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.4);border-radius: 100px;animation: pulse 2.5s ease infinite;">
-      <svg width="42" height="42" style="padding: 5px;" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_1024_354)"><path d="M23.8759 4.06939C21.4959 1.68839 18.3316 0.253548 14.9723 0.0320463C11.613 -0.189455 8.28774 0.817483 5.61565 2.86535C2.94357 4.91323 1.10682 7.86244 0.447451 11.1638C-0.21192 14.4652 0.351026 17.8937 2.03146 20.8109L0.0625 28.0004L7.42006 26.0712C9.45505 27.1794 11.7353 27.7601 14.0524 27.7602H14.0583C16.8029 27.7599 19.4859 26.946 21.768 25.4212C24.0502 23.8965 25.829 21.7294 26.8798 19.1939C27.9305 16.6583 28.206 13.8682 27.6713 11.1761C27.1367 8.48406 25.8159 6.01095 23.8759 4.06939ZM14.0583 25.4169H14.0538C11.988 25.417 9.96008 24.8617 8.1825 23.8091L7.7611 23.5593L3.3945 24.704L4.56014 20.448L4.28546 20.0117C2.92594 17.8454 2.32491 15.2886 2.57684 12.7434C2.82877 10.1982 3.91938 7.80894 5.67722 5.95113C7.43506 4.09332 9.76045 2.87235 12.2878 2.48017C14.8152 2.08799 17.4013 2.54684 19.6395 3.78457C21.8776 5.02231 23.641 6.96875 24.6524 9.3179C25.6638 11.6671 25.8659 14.2857 25.2268 16.7622C24.5877 19.2387 23.1438 21.4326 21.122 22.999C19.1001 24.5655 16.6151 25.4156 14.0575 25.4157L14.0583 25.4169Z" fill="#E0E0E0"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M10.6291 7.98363C10.3723 7.41271 10.1019 7.40123 9.85771 7.39143C9.65779 7.38275 9.42903 7.38331 9.20083 7.38331C9.0271 7.3879 8.8562 7.42837 8.69887 7.5022C8.54154 7.57602 8.40119 7.68159 8.28663 7.81227C7.899 8.17929 7.59209 8.62305 7.38547 9.11526C7.17884 9.60747 7.07704 10.1373 7.08655 10.6711C7.08655 12.3578 8.31519 13.9877 8.48655 14.2164C8.65791 14.4452 10.8581 18.0169 14.3425 19.3908C17.2382 20.5327 17.8276 20.3056 18.4562 20.2485C19.0848 20.1913 20.4843 19.4194 20.7701 18.6189C21.056 17.8183 21.0557 17.1323 20.9701 16.989C20.8844 16.8456 20.6559 16.7605 20.3129 16.5889C19.9699 16.4172 18.2849 15.5879 17.9704 15.4736C17.656 15.3594 17.4275 15.3023 17.199 15.6455C16.9705 15.9888 16.3139 16.7602 16.1137 16.9895C15.9135 17.2189 15.7136 17.2471 15.3709 17.0758C14.3603 16.6729 13.4275 16.0972 12.6143 15.3745C11.8648 14.6818 11.2221 13.8819 10.7072 13.0007C10.5073 12.6579 10.6857 12.472 10.8579 12.3007C11.0119 12.1472 11.2006 11.9005 11.3722 11.7003C11.5129 11.5271 11.6282 11.3346 11.7147 11.1289C11.7603 11.0343 11.7817 10.9299 11.7768 10.825C11.7719 10.7201 11.7409 10.6182 11.6867 10.5283C11.6001 10.3566 10.9337 8.66151 10.6291 7.98363Z" fill="white"></path><path d="M23.7628 4.02445C21.4107 1.66917 18.2825 0.249336 14.9611 0.0294866C11.6397 -0.190363 8.35161 0.804769 5.70953 2.82947C3.06745 4.85417 1.25154 7.77034 0.600156 11.0346C-0.051233 14.299 0.506321 17.6888 2.16894 20.5724L0.222656 27.6808L7.49566 25.7737C9.50727 26.8692 11.7613 27.4432 14.0519 27.4434H14.0577C16.7711 27.4436 19.4235 26.6392 21.6798 25.1321C23.936 23.6249 25.6947 21.4825 26.7335 18.9759C27.7722 16.4693 28.0444 13.711 27.5157 11.0497C26.9869 8.38835 25.6809 5.94358 23.7628 4.02445ZM14.0577 25.1269H14.0547C12.0125 25.1271 10.0078 24.5782 8.25054 23.5377L7.8339 23.2907L3.51686 24.4222L4.66906 20.2143L4.39774 19.7831C3.05387 17.6415 2.4598 15.1141 2.70892 12.598C2.95804 10.082 4.03622 7.72013 5.77398 5.88366C7.51173 4.04719 9.81051 2.84028 12.3089 2.45266C14.8074 2.06505 17.3638 2.5187 19.5763 3.74232C21.7888 4.96593 23.5319 6.89011 24.5317 9.21238C25.5314 11.5346 25.7311 14.1233 25.0993 16.5714C24.4675 19.0195 23.0401 21.1883 21.0414 22.7367C19.0427 24.2851 16.5861 25.1254 14.0577 25.1255V25.1269Z" fill="white"></path></g><defs><clipPath id="clip0_1024_354"><rect width="27.8748" height="28" fill="white" transform="translate(0.0625)"></rect></clipPath></defs></svg>
-      <span class="button-text"></span>
-    </a>
-  </div>
-</body>
-
+  </body>
 </html>
